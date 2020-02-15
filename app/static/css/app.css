@@ -1,3 +1,49 @@
 body {
     padding-top: 5rem;
 }
+
+.bold{
+	font-weight: bold;
+}
+
+span{
+	color:#FF00FF;
+}
+
+.textbox{
+	border-radius:5%;
+	margin-bottom: 25px;
+}
+
+.btn{
+	background-color:#92b7fe;
+	font-weight: bold;
+
+}
+
+h3{
+	border-bottom: solid black 6px;
+}
+
+
+.flashes{
+	display:flex;
+	flex direction: row;
+	align-items:center;
+	align-content: center;
+	justify-content: center;
+	font-weight: bolder;
+	background-color:#ffffaa;
+	text-transform: uppercase;
+	padding:10px;
+	list-style: none;
+	animation: blink 3s linear infinite;
+
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
